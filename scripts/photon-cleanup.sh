@@ -9,6 +9,10 @@
 echo '> Clearing tdnf cache...'
 tdnf clean all
 
+#Remove Machine ID
+echo -n > /etc/machine-id
+
+
 
 # Cleanup log files
 echo '> Removing Log files...'

@@ -13,6 +13,7 @@ tdnf -y update
 echo '> Installing Additional Packages...'
 tdnf install -y \
   less \
+  nano \
   logrotate \
   curl \
   wget \
